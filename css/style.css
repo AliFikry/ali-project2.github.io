@@ -1,0 +1,462 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 90px;
+  background-color: white;
+  width: 100%;
+}
+
+nav .contact-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-decoration: none;
+}
+
+nav .contact-number .number {
+  margin: 10px 10px 0px 0px;
+  font-size: 22px;
+  color: black;
+  cursor: pointer;
+}
+
+nav .contact-number button {
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #dd9103;
+  padding: 10px;
+  margin: 0px 120px 0px 40px;
+  cursor: pointer;
+}
+
+nav .contact-number button:hover {
+  background-color: orange;
+}
+
+.logo {
+  font-size: 40px;
+  text-decoration: none;
+  color: black;
+  margin-left: 160px;
+}
+
+main .main-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .main-page .intro h2 {
+  margin-top: 25%;
+  font-size: 35px;
+  margin-left: 50px;
+  color: #353535;
+}
+
+main .main-page .intro p {
+  margin-left: 50px;
+  font-size: 20px;
+  width: 600px;
+  margin-top: 10px;
+}
+
+main .main-page img {
+  height: 400px;
+  width: auto;
+  float: right;
+  margin: 30px 30px 0px 0px;
+  display: block;
+  cursor: pointer;
+}
+
+main button {
+  margin-left: 50px;
+  line-height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  padding: 16px 12px;
+  background-color: #6c63ff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-sales {
+  width: 100%;
+  height: 90px;
+  background-color: #5353fd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 50px 0px 0px 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-sales h2 {
+  color: white;
+  font-size: 40px;
+}
+
+.contact-sales button {
+  margin-left: 50px;
+  line-height: 24px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  padding: 16px 12px;
+  background-color: #dd9103;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-sales button:hover {
+  background-color: orange;
+}
+
+.about-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.about-us h2 {
+  margin-left: 220px;
+  color: #353535;
+}
+
+.about-us p {
+  width: 600px;
+  margin: 15px 0px;
+  margin-left: 6px;
+  font-size: 18px;
+}
+
+.about-us img {
+  height: 300px;
+  margin-right: 50px;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+}
+
+.box {
+  width: 20%;
+  color: #6c63ff;
+  margin: 20px;
+  font-size: 50px;
+}
+
+.box h5 {
+  font-size: 30px;
+  margin-left: 45px;
+  font-weight: normal;
+}
+
+.box p {
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.box span {
+  font-size: 16px;
+}
+
+.box span a {
+  text-decoration: none;
+}
+
+.order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 80px;
+}
+
+.order img {
+  height: 400px;
+}
+
+.order .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.order .form h3 {
+  margin: 0px 0px 0px 140px;
+  font-size: 28px;
+  color: #353535;
+}
+
+.order .form hr {
+  width: 135px;
+  margin-left: 140px;
+  border: 1px solid #6c63ff;
+  margin-bottom: 10px;
+}
+
+.order .form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.order .form input {
+  width: 400px;
+  height: 40px;
+  margin: 10px;
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.order .form button {
+  width: 200px;
+  margin-left: 120px;
+  line-height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  padding: 16px 12px;
+  background-color: #6c63ff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  height: 130px;
+  width: 100%;
+  background-color: #333;
+  margin-top: 70px;
+}
+
+footer p {
+  float: right;
+  margin: 58px 20px 0px 0px;
+  color: white;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+footer h3, footer .made-by {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer h3 {
+  color: white;
+  font-size: 25px;
+}
+
+footer .made-by {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 0px 400px;
+  color: white;
+  font-size: 20px;
+}
+
+footer .social-media {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .social-media i {
+  display: block;
+  color: #9e9e9e;
+  margin: 59px 0px 0px 20px;
+  cursor: pointer;
+}
+
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+.form-container input[type=text], textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.form-container input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 750px) {
+  nav .contact-number button {
+    margin-right: 60px;
+  }
+  nav .contact-number p {
+    display: none;
+  }
+  main .main-page img {
+    display: none;
+  }
+  main .main-page h2 {
+    width: 500px;
+  }
+  main .main-page .intro p {
+    width: 490px;
+    margin-right: 0px;
+  }
+  main button {
+    margin-top: 50px;
+  }
+  .about-us img {
+    display: none;
+  }
+  .about-us .about p {
+    width: 500px;
+  }
+  .order img {
+    display: none;
+  }
+  footer {
+    height: 180px;
+  }
+  footer .social-media i {
+    margin-top: 90px;
+  }
+  footer p {
+    margin-top: 90px;
+  }
+  footer .made-by {
+    margin: 20px 0px 0px 0px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .box {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .box {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
